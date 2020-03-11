@@ -1,6 +1,6 @@
 syntax on
 
-# tabs and space configuration
+" tabs and space configuration
 set tabstop=2
 set softtabstop=2
 set expandtab
