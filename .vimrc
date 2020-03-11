@@ -3,6 +3,7 @@ syntax on
 " tabs and space configuration
 set tabstop=2
 set softtabstop=2
+set shiftwidth=2
 set expandtab
  
 " decorate with line numbers and line width indicators
@@ -35,4 +36,4 @@ set tabpagemax=100
 " search QOL tweaks
 set hlsearch
 hi Search ctermbg=6 ctermfg=7
-match Search /\%(\_^\s*\)\@<=\%(\%1v\|\%3v\|\%5v\|\%7v\|\%9v\|\%11v\|\%13v\|\%15v\|\%17v\|\%19v\|\%21v\|\%23v\|\%25v\|\%27v\|\%29v\|\%31v\|\%33v\|\%35v\|\%37v\)\s/
+" DISABLED: match Search /\%(\_^\s*\)\@<=\%(\%1v\|\%3v\|\%5v\|\%7v\|\%9v\|\%11v\|\%13v\|\%15v\|\%17v\|\%19v\|\%21v\|\%23v\|\%25v\|\%27v\|\%29v\|\%31v\|\%33v\|\%35v\|\%37v\)\s/
